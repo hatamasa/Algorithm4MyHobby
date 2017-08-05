@@ -1,11 +1,24 @@
 # Algorithm4MyHobby
+<hr>
 
-## ■ビームの反射アルゴリズム
+## 基本ソートアルゴリズム実装
+* jp.co.masaya.practice.sort
+* jp.co.masaya.practice.sort.input
+
+## プログラマ脳を鍛える数学パズル
+* jp.co.masaya.practice.chapter1（第一章）
+* jp.co.masaya.practice.chapter2（第二章）
+
+## paizaで解いたプログラミング問題
+* jp.co.masaya.practice.paiza
+* jp.co.masaya.practice.paiza.input
+
+# ■ビームの反射アルゴリズム(Aランク)
 jp.co.masaya.practice.paiza.BeamRefrection.java
 
 箱の高さHと幅W、および箱の内部の状態が与えられるので、箱の内部に向けてビームが撃たれてから箱の外部に飛び出るまでにビームが箱の中の区画を通過する回数を答えてください。
 
-### 入力フォーマット
+**【入力フォーマット】**  
 H W　　　#箱の高さ H , 幅 W  
 
 s_1　　　#1列目の箱の状態を示した文字列  
@@ -13,7 +26,7 @@ s_2　　　#2列目の箱の状態を示した文字列
 ...  
 s_H　　　#H列目の箱の状態を示した文字列  
 
-## ■落ちものシミュレーション
+### ■落ちものシミュレーション(Aランク)
 jp.co.masaya.practice.paiza.DropDownSimulation.java
 
 * ゲームは縦幅 H、横幅 W の長方形のフィールドで行われます。
@@ -23,7 +36,7 @@ jp.co.masaya.practice.paiza.DropDownSimulation.java
 上記の仕様に従って落ちてくる長方形の動きをシミュレーションしましょう。  
 N 個の長方形が落ちてきた後のフィールドの状態を表示するプログラムを書いてください。
 
-### 入力フォーマット
+**【入力フォーマット】**  
 H W N  
 h_1 w_1 x_1  
 h_2 w_2 x_2  

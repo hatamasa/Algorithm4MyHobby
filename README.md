@@ -13,7 +13,7 @@
 * jp.co.masaya.practice.paiza
 * jp.co.masaya.practice.paiza.input
 
-# ■ビームの反射アルゴリズム(Aランク)
+### ■ビームの反射アルゴリズム(Aランク)
 jp.co.masaya.practice.paiza.BeamRefrection.java
 
 箱の高さHと幅W、および箱の内部の状態が与えられるので、箱の内部に向けてビームが撃たれてから箱の外部に飛び出るまでにビームが箱の中の区画を通過する回数を答えてください。

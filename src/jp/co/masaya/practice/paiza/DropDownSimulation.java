@@ -2,7 +2,7 @@ package jp.co.masaya.practice.paiza;
 
 import java.util.Scanner;
 
-public class Main12 {
+public class DropDownSimulation {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int H = sc.nextInt();// 高さ
@@ -49,5 +49,6 @@ public class Main12 {
 			}
 			System.out.println();
 		}
+		sc.close();
 	}
 }

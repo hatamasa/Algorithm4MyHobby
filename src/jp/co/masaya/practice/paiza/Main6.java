@@ -26,6 +26,7 @@ public class Main6 {
 		for (int i = 0; i < resultIdx; i++) {
 			System.out.println(result[i]);
 		}
+		sc.close();
 	}
 
 	static void setSosu(int n, int[] sosu) {

@@ -11,14 +11,13 @@ public class Main5 {
 		int M = Integer.parseInt(NM[1]);// ウサギ
 		int K = Integer.parseInt(NM[2]);// 回数
 		// ウサギ位置初期化
-		List list = new ArrayList<Integer>(N);
+		List<Integer> list = new ArrayList<Integer>(N);
 		for (int i = 0; i < N; i++) {
 			list.add(0);
 		}
 		for (int i = 0; i < M; i++) {
 			list.set(sc.nextInt() -1 , i + 1);
 		}
-		int index = 0;
 		// K回目のジャンプ
 		for (int i = 0; i < K; i++) {
 			for (int a = 1; a <= M; a++) {
@@ -49,5 +48,6 @@ public class Main5 {
 		for (int i = 1; i <= M; i++) {
 			System.out.println(list.indexOf(i)+1);
 		}
+		sc.close();
 	}
 }

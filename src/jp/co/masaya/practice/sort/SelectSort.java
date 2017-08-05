@@ -32,5 +32,6 @@ public class SelectSort {
 		for (Integer integer : list) {
 			System.out.println(integer);
 		}
+		sc.close();
 	}
 }

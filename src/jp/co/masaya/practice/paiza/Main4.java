@@ -23,5 +23,6 @@ public class Main4 {
 			}
 		}
 		System.out.println(sumDayCost);
+		sc.close();
 	}
 }

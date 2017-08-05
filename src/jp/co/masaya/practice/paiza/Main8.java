@@ -22,5 +22,6 @@ public class Main8 {
 			S = ans;
 		}
 		System.out.println(S);
+		sc.close();
 	}
 }

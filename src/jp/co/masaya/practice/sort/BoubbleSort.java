@@ -26,7 +26,7 @@ public class BoubbleSort {
 		for (Integer integer : list) {
 			System.out.println(integer);
 		}
-
+		sc.close();
 	}
 
 }

@@ -25,5 +25,6 @@ public class Main7 {
 		} else {
 			System.out.println(maxNo);
 		}
+		sc.close();
 	}
 }

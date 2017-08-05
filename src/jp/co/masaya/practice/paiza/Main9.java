@@ -9,5 +9,6 @@ public class Main9 {
 		int m = sc.nextInt();// 指定の数
 		int i = (m - 1) / (2 * n);// 指定の数の前に何ページあるか
 		System.out.println((2 * n + 1) + 4 * n * i - m);
+		sc.close();
 	}
 }

@@ -9,17 +9,17 @@ public class Main3 {
 		int pCnt = sc.nextInt();
 		int days = sc.nextInt();
 		// 商品の価格リスト
-		List pPrices = new ArrayList<Integer>();
+		List<Integer> pPrices = new ArrayList<Integer>();
 		for (int i = 0; i < pCnt; i++) {
 			pPrices.add(sc.nextInt());
 		}
 		// 日別キャンペーン価格リスト
-		List dayPrices = new ArrayList<Integer>();
+		List<Integer> dayPrices = new ArrayList<Integer>();
 		for (int i = 0; i < days; i++) {
 			dayPrices.add(sc.nextInt());
 		}
 		// P_N 2品の組合わせリスト
-		List p2Prices = new ArrayList<Integer>();
+		List<Integer> p2Prices = new ArrayList<Integer>();
 		for (int i = 0; i < pCnt; i++) {
 			for (int n = i + 1; n < pCnt; n++) {
 				p2Prices.add((int) pPrices.get(i) + (int) pPrices.get(n));
@@ -36,5 +36,6 @@ public class Main3 {
 			}
 			System.out.println(answerPrice);
 		}
+		sc.close();
 	}
 }

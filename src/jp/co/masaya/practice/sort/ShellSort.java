@@ -31,5 +31,6 @@ public class ShellSort {
 		for (Integer integer : list) {
 			System.out.println(integer);
 		}
+		sc.close();
 	}
 }

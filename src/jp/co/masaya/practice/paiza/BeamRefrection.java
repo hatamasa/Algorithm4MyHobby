@@ -2,7 +2,7 @@ package jp.co.masaya.practice.paiza;
 
 import java.util.Scanner;
 
-public class Main11 {
+public class BeamRefrection {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		String[] tmp = sc.nextLine().split(" ");
@@ -50,5 +50,6 @@ public class Main11 {
 			}
 		}
 		System.out.println(cnt);
+		sc.close();
 	}
 }

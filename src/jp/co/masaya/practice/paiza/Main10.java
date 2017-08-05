@@ -24,5 +24,6 @@ public class Main10 {
 		} else {
 			System.out.println("miss");
 		}
+		sc.close();
 	}
 }
